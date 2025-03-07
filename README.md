@@ -1,3 +1,5 @@
+<h1>Abstract</h1>
+
 Sentiment analysis is a crucial task in natural language processing (NLP) with applications ranging from social media monitoring to consumer feedback evaluation. While transformer-based models like DeBERTa have set new benchmarks, challenges such as limited training data, class imbalance, and computational overhead persist. In this paper, we propose a comprehensive framework that incorporates Word2Vec-based text augmentation and explores multiple modifications to the standard DeBERTa model. Our framework not only enhances model performance but also maintains computational efficiency.
 
 We evaluate our approach on the SST-5 dataset, a benchmark for fine-grained sentiment analysis. Our text augmentation pipeline employs transformations such as synonym replacement, random insertion, deletion, and swapping, all grounded in rigorous mathematical formulations. For model architectures, we explore baseline, transformer-enhanced, FFN-enhanced, and adapter-enhanced variants of DeBERTa.
